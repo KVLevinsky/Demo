@@ -12,6 +12,9 @@ namespace Demo_Factorial {
                 ulong.TryParse(args[0], out Number);
             Console.WriteLine($"Evaluating the factorial of {Number}...");
             Console.WriteLine($"{Number}! = {new Factorial().Evaluate(Number)}");
+            Console.Write("The sequence:");
+            for (ulong i = 1; i <= Number; i++)
+                Console.Write($" {new Factorial().Evaluate(i)}");
             Console.ReadKey();
         }
     }

@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 namespace Demo_Factorial {
     class Factorial {
         public ulong Evaluate(ulong value) {
-            if (value == 2) return 2;
-            else return value * Evaluate(value - 1);
+            if (value > 0) {
+                if (value == 1) return 1;
+                else return value * Evaluate(value - 1);
+            } else return 0;
         }
     }
 }
