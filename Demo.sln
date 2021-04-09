@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Fibonacci", "Demo-Fibo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-MIDC", "Demo-MIDC\Demo-MIDC.csproj", "{772972D8-409D-40EB-AEF6-059ECEDC398C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Fibonacci-Advanced", "Demo-Fibonacci-Advanced\Demo-Fibonacci-Advanced.csproj", "{7D587FD8-BAC1-4821-BFA2-BADE99E79020}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{772972D8-409D-40EB-AEF6-059ECEDC398C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772972D8-409D-40EB-AEF6-059ECEDC398C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{772972D8-409D-40EB-AEF6-059ECEDC398C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D587FD8-BAC1-4821-BFA2-BADE99E79020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D587FD8-BAC1-4821-BFA2-BADE99E79020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D587FD8-BAC1-4821-BFA2-BADE99E79020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D587FD8-BAC1-4821-BFA2-BADE99E79020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
